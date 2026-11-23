@@ -102,3 +102,6 @@ blockquote footer{font-weight:700;color:var(--muted);font-size:.95rem}
 @media(min-width:900px){.pbadge{bottom:16px;right:16px}}
 .preview-note{background:#FFF8E1;border-bottom:1px solid #EEDFA8;color:#5B4500;font-size:.85rem;text-align:center;padding:6px 12px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+
+.nav a.btn-primary,.nav a.btn-primary:hover{color:#fff}.nav a.btn-ghost{color:var(--plum)}
+.panel ul.contact-lines{padding-left:0}.contact-lines a{overflow-wrap:anywhere}
