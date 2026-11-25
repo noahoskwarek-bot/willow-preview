@@ -91,11 +91,12 @@ section{padding:56px 0;position:relative}@media(min-width:900px){section{padding
 .pillar .band{position:relative;background:radial-gradient(260px 90px at 50% 0,rgba(255,255,255,.18),transparent),linear-gradient(180deg,#2F5C40,#1A3625);padding:16px 16px 14px;display:flex;align-items:center;gap:12px;border-bottom:2px solid transparent;border-image:var(--metal) 1}
 .badge{width:52px;height:52px;border-radius:50%;flex:none;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#2F5C40,#132A1C);box-shadow:0 0 0 2px #D4AE55,0 0 14px rgba(226,199,127,.45)}
 .badge svg{width:32px;height:24px}
-.pillar h3{font-family:var(--script);font-weight:400;font-size:2.4rem;line-height:1;margin:0}
+.pillar h3{font-family:var(--script);font-weight:400;font-size:clamp(2.1rem,6.5vw,2.5rem);line-height:1.35;margin:-.18em 0 -.12em -.12em;padding:.06em .3em .12em .14em;white-space:nowrap;overflow:visible}
+@media(min-width:1060px){.pillar h3{font-size:clamp(2rem,2.5vw,2.4rem)}}
 .pillar .sub{display:block;font:500 .86rem/1.35 var(--serif);color:#F2E8CF;margin-top:4px}
 .pillar .body{padding:16px 18px 20px;display:flex;flex-direction:column;flex:1;position:relative}
-.medal{width:128px;height:128px;border-radius:50%;margin:-2px auto 12px;padding:3px;background:var(--metal);box-shadow:0 8px 22px rgba(120,90,30,.25)}
-.medal img,.medal svg{width:100%;height:100%;border-radius:50%;object-fit:cover;background:radial-gradient(circle at 40% 35%,#FFFDF6,#EFE3C8)}
+.medal{width:104px;height:104px;border-radius:50%;margin:2px auto 14px;padding:3px;background:var(--metal);box-shadow:0 8px 22px rgba(120,90,30,.25),0 0 22px rgba(226,199,127,.35)}
+.medal svg{width:100%;height:100%;border-radius:50%;display:block;padding:20px;background:radial-gradient(circle at 38% 30%,#336447,#132A1C 75%);box-shadow:inset 0 2px 6px rgba(255,255,255,.18)}
 .pillar p{color:var(--muted);font-size:.96rem}
 .pillar .btn{margin-top:auto;align-self:center}
 /* services */
